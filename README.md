@@ -51,7 +51,7 @@ module.exports = {
 }
 ```
 
-完成后自动生效，`node main.js` 即可看到新模块，`node main.js your-module` 运行。
+完成后自动生效，`npm start` 即可看到新模块，`npm start your-module` 运行。
 
 ## 目录结构
 
