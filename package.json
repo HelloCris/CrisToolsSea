@@ -1,0 +1,12 @@
+{
+  "name": "cris-tools",
+  "version": "1.0.0",
+  "description": "A collection of useful tools for CRIS projects",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node --watch main.js"
+  },
+  "author": "cris",
+  "license": "ISC"
+}
