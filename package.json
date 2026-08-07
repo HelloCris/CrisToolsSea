@@ -1,12 +1,12 @@
 {
-  "name": "cris-tools",
+  "name": "cris-tools-sea",
   "version": "1.0.0",
-  "description": "A collection of useful tools for CRIS projects",
+  "description": "A collection of useful tools for CRIS projects with a 'haier' theme",
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
     "dev": "node --watch main.js"
   },
-  "author": "cris",
+  "author": "Cris",
   "license": "ISC"
 }
