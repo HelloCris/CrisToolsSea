@@ -1,3 +1,5 @@
+// https://mytimenew.haier.net/single/pub/index.html?lang=zh-CN&open_in_browser=true
+// 登录后，获取接口数据
 // https://mytimenew.haier.net/forward_webfront/api/time-card/app/myAttendDataToSort
 // timesData 数组为 上述接口响应.data.data
 
@@ -299,7 +301,7 @@ const timesData =
         "eid": 1108012,
         "day": "2026-08-07",
         "title": "7",
-        "subTitle": "",
+        "subTitle": "出勤",
         "titleLevel": "sch_shift",
         "subscript": null,
         "workflow": [],
@@ -321,6 +323,24 @@ const timesData =
                             "showShiftTime": null,
                             "shiftTime": "2026-08-07 09:00:00",
                             "timeDetail": "2026-08-07 08:52:00",
+                            "memos": null,
+                            "exception": "normal",
+                            "exceptionDesc": "正常",
+                            "exceptionColor": null,
+                            "clockType": "",
+                            "actions": null,
+                            "imageUrl": null,
+                            "displayNoSign": 0,
+                            "legworkClockData": null
+                        },
+                        {
+                            "bid": "2026080720311672014528ef01738378",
+                            "schRangeBid": "2026070601252706613599b772675864",
+                            "type": "end",
+                            "time": "",
+                            "showShiftTime": null,
+                            "shiftTime": "2026-08-07 18:00:00",
+                            "timeDetail": "2026-08-07 20:31:00",
                             "memos": null,
                             "exception": "normal",
                             "exceptionDesc": "正常",
@@ -372,7 +392,7 @@ const timesData =
         "eid": 1108012,
         "day": "2026-08-10",
         "title": "10",
-        "subTitle": "弹性",
+        "subTitle": "",
         "titleLevel": "sch_shift",
         "subscript": null,
         "workflow": [],
@@ -384,7 +404,28 @@ const timesData =
                 "subTitle": null,
                 "color": "#FDFDFF",
                 "ranges": null,
-                "records": [],
+                "records": [
+                    [
+                        {
+                            "bid": "202608100848443671452d1d32333235",
+                            "schRangeBid": "202607090127411991359df5c6917312",
+                            "type": "start",
+                            "time": "",
+                            "showShiftTime": null,
+                            "shiftTime": "2026-08-10 09:00:00",
+                            "timeDetail": "2026-08-10 08:48:00",
+                            "memos": null,
+                            "exception": "normal",
+                            "exceptionDesc": "正常",
+                            "exceptionColor": null,
+                            "clockType": "",
+                            "actions": null,
+                            "imageUrl": null,
+                            "displayNoSign": 0,
+                            "legworkClockData": null
+                        }
+                    ]
+                ],
                 "duration": null,
                 "labels": {
                     "baiban": "无津贴"
