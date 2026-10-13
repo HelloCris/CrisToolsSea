@@ -21,6 +21,7 @@ npm install
 npm run dev
 npm run dev working-hours
 npm run dev yuntu-link
+npm start yuntu-link 1 5
 
 ```
 
@@ -33,6 +34,7 @@ npm run dev yuntu-link
 |------|------|------|
 | `npm start working-hours` | WorkingHours | 统计每日打卡时长（不扣除午休） |
 | `npm start yuntu-link` | YuntuLink | 查询云图资讯并输出每条详情链接（token 配置在 `src/YuntuLink/queryUser.js`，过期需手动替换） |
+| `npm start yuntu-link 1 5` | YuntuLink | 同上，并将第 1~5 条链接在默认浏览器中打开 |
 
 ## 添加新工具
 
@@ -71,7 +73,7 @@ cris-tools/
     │   ├── AverageWorkingHours.js  # 打卡时长计算逻辑
     │   └── timesData.js # 打卡原始数据
     └── YuntuLink/
-        ├── index.js       # 模块入口，输出资讯详情链接
+        ├── index.js       # 模块入口，输出链接并可指定区间在浏览器打开
         ├── queryYuntuID.js # 云图资讯分页查询接口封装
         ├── queryUser.js   # 鉴权 token 配置
         └── yuntuData.js   # 云图相关数据
