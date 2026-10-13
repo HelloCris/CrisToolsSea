@@ -1,0 +1,6 @@
+// https://yuntu.haier.net/#/home
+
+
+const token = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNTU5NDkzNjM4MDIxNDQ3NjgxIiwic3ViIjoiZnJhbWUiLCJhdWQiOiIyNTA3MzcwNCIsImlzcyI6InN5c3RlbSIsImlhdCI6MTc5MTg1Mzg1NywibmJmIjoxNzkxODUzODU3LCJleHAiOjE3OTE4ODI2NTcsImxvZ2luSWQiOjE1NTk0OTM2Mzc5NDU5NTAyMDgsInVzZXJOYW1lIjoi546L5Zu95YWIIiwidXNlckNvZGUiOiIyNTA3MzcwNCJ9.9YZ35DTwMmba2hy0G2rTxQpKldEEZVTnPCW1YkcdlqE'
+
+module.exports = token
